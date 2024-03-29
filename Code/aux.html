@@ -1,156 +1,147 @@
 <div>
-    <style scoped>
-        .dataframe tbody tr th:only-of-type {
-            vertical-align: middle;
-        }
-    
-        .dataframe tbody tr th {
-            vertical-align: top;
-        }
-    
-        .dataframe thead th {
-            text-align: right;
-        }
-    </style>
-    <table border="1" class="dataframe">
-      <thead>
-        <tr style="text-align: right;">
-          <th></th>
-          <th>num_instruments</th>
-          <th>duration</th>
-          <th>tempo_changes</th>
-          <th>key_signatures</th>
-          <th>time_signatures</th>
-          <th>avg_pitch</th>
-          <th>min_pitch</th>
-          <th>max_pitch</th>
-          <th>avg_velocity</th>
-          <th>avg_duration</th>
-          <th>polyphony</th>
-          <th>avg_interval</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>count</th>
-          <td>49.000000</td>
-          <td>49.000000</td>
-          <td>49.000000</td>
-          <td>49.000000</td>
-          <td>49.000000</td>
-          <td>49.000000</td>
-          <td>49.000000</td>
-          <td>49.000000</td>
-          <td>49.000000</td>
-          <td>49.000000</td>
-          <td>49.000000</td>
-          <td>49.000000</td>
-        </tr>
-        <tr>
-          <th>mean</th>
-          <td>1.877551</td>
-          <td>410.680475</td>
-          <td>553.714286</td>
-          <td>1.306122</td>
-          <td>2.408163</td>
-          <td>63.738438</td>
-          <td>30.346939</td>
-          <td>92.795918</td>
-          <td>52.639947</td>
-          <td>0.367886</td>
-          <td>8.718935</td>
-          <td>0.133548</td>
-        </tr>
-        <tr>
-          <th>std</th>
-          <td>1.129761</td>
-          <td>572.032751</td>
-          <td>749.211780</td>
-          <td>1.294284</td>
-          <td>4.112574</td>
-          <td>3.015616</td>
-          <td>5.811451</td>
-          <td>8.539076</td>
-          <td>10.203006</td>
-          <td>0.198797</td>
-          <td>3.429157</td>
-          <td>0.065312</td>
-        </tr>
-        <tr>
-          <th>min</th>
-          <td>1.000000</td>
-          <td>31.358879</td>
-          <td>1.000000</td>
-          <td>0.000000</td>
-          <td>1.000000</td>
-          <td>56.749396</td>
-          <td>14.000000</td>
-          <td>79.000000</td>
-          <td>34.263727</td>
-          <td>0.084478</td>
-          <td>2.522720</td>
-          <td>0.057595</td>
-        </tr>
-        <tr>
-          <th>25%</th>
-          <td>1.000000</td>
-          <td>159.661665</td>
-          <td>1.000000</td>
-          <td>1.000000</td>
-          <td>1.000000</td>
-          <td>61.423045</td>
-          <td>26.000000</td>
-          <td>86.000000</td>
-          <td>46.377039</td>
-          <td>0.216885</td>
-          <td>6.625879</td>
-          <td>0.090261</td>
-        </tr>
-        <tr>
-          <th>50%</th>
-          <td>2.000000</td>
-          <td>282.377630</td>
-          <td>349.000000</td>
-          <td>1.000000</td>
-          <td>1.000000</td>
-          <td>63.857296</td>
-          <td>30.000000</td>
-          <td>91.000000</td>
-          <td>52.803330</td>
-          <td>0.326149</td>
-          <td>8.689281</td>
-          <td>0.108840</td>
-        </tr>
-        <tr>
-          <th>75%</th>
-          <td>2.000000</td>
-          <td>395.849233</td>
-          <td>644.000000</td>
-          <td>1.000000</td>
-          <td>1.000000</td>
-          <td>65.657291</td>
-          <td>34.000000</td>
-          <td>101.000000</td>
-          <td>59.386981</td>
-          <td>0.469557</td>
-          <td>10.790041</td>
-          <td>0.148375</td>
-        </tr>
-        <tr>
-          <th>max</th>
-          <td>6.000000</td>
-          <td>3752.264323</td>
-          <td>3190.000000</td>
-          <td>7.000000</td>
-          <td>21.000000</td>
-          <td>69.430959</td>
-          <td>45.000000</td>
-          <td>108.000000</td>
-          <td>70.726400</td>
-          <td>1.049082</td>
-          <td>17.357665</td>
-          <td>0.392356</td>
-        </tr>
-      </tbody>
-    </table>
-    </div>
+  <style scoped>
+      .dataframe tbody tr th:only-of-type {
+          vertical-align: middle;
+      }
+  
+      .dataframe tbody tr th {
+          vertical-align: top;
+      }
+  
+      .dataframe thead th {
+          text-align: right;
+      }
+  </style>
+  <table border="1" class="dataframe">
+    <thead>
+      <tr style="text-align: right;">
+        <th></th>
+        <th>filename</th>
+        <th>num_instruments</th>
+        <th>instruments</th>
+        <th>duration</th>
+        <th>tempo_changes</th>
+        <th>key_signatures</th>
+        <th>time_signatures</th>
+        <th>avg_pitch</th>
+        <th>min_pitch</th>
+        <th>max_pitch</th>
+        <th>avg_velocity</th>
+        <th>avg_duration</th>
+        <th>polyphony</th>
+        <th>avg_interval</th>
+        <th>pitch_classes</th>
+        <th>main_key</th>
+        <th>chords</th>
+        <th>notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>0</th>
+        <td>muss_2.mid</td>
+        <td>3</td>
+        <td>Acoustic Grand Piano</td>
+        <td>294.345044</td>
+        <td>472</td>
+        <td>2</td>
+        <td>13</td>
+        <td>58.512764</td>
+        <td>32</td>
+        <td>94</td>
+        <td>39.164843</td>
+        <td>0.823738</td>
+        <td>4.657799</td>
+        <td>0.210788</td>
+        <td>[34, 119, 37, 191, 120, 40, 56, 46, 515, 33, 1...</td>
+        <td>G# minor</td>
+        <td>50.54, 65.61, 51.54, 70.82.77.73, 52.56, 68.65...</td>
+        <td>(61,7.15,7.80,34) (65,7.15,7.80,34) (68,7.15,7...</td>
+      </tr>
+      <tr>
+        <th>1</th>
+        <td>mendel_op19_1.mid</td>
+        <td>3</td>
+        <td>Acoustic Grand Piano</td>
+        <td>163.375953</td>
+        <td>541</td>
+        <td>1</td>
+        <td>1</td>
+        <td>59.155311</td>
+        <td>30</td>
+        <td>84</td>
+        <td>38.610256</td>
+        <td>0.339504</td>
+        <td>8.354963</td>
+        <td>0.116222</td>
+        <td>[37, 100, 33, 114, 223, 7, 207, 48, 139, 108, ...</td>
+        <td>E major</td>
+        <td>62.60.57.54, 66.68, 56.64, 69.68, 40.47</td>
+        <td>(69,4.42,5.05,51) (68,5.05,5.67,57) (66,5.67,6...</td>
+      </tr>
+      <tr>
+        <th>2</th>
+        <td>muss_3.mid</td>
+        <td>2</td>
+        <td>Acoustic Grand Piano</td>
+        <td>89.440365</td>
+        <td>310</td>
+        <td>2</td>
+        <td>8</td>
+        <td>67.607626</td>
+        <td>27</td>
+        <td>90</td>
+        <td>47.820418</td>
+        <td>0.355700</td>
+        <td>9.089856</td>
+        <td>0.106152</td>
+        <td>[15, 86, 32, 140, 32, 65, 151, 28, 88, 25, 30,...</td>
+        <td>B major</td>
+        <td>71.67, 82.90.75, 87.83.78, 30.42, 52.40, 65.61...</td>
+        <td>(68,0.00,0.64,77) (56,0.00,0.64,65) (54,0.64,1...</td>
+      </tr>
+      <tr>
+        <th>3</th>
+        <td>muss_1.mid</td>
+        <td>2</td>
+        <td>Acoustic Grand Piano</td>
+        <td>210.571309</td>
+        <td>1036</td>
+        <td>2</td>
+        <td>21</td>
+        <td>56.749396</td>
+        <td>27</td>
+        <td>94</td>
+        <td>61.642512</td>
+        <td>0.438788</td>
+        <td>7.864319</td>
+        <td>0.126381</td>
+        <td>[122, 47, 130, 245, 58, 232, 106, 127, 77, 144...</td>
+        <td>E- major</td>
+        <td>48.36, 81.69.72, 57.45, 30.42, 58.70.65, 66.70...</td>
+        <td>(67,0.00,0.63,90) (65,0.60,1.22,85) (70,1.20,1...</td>
+      </tr>
+      <tr>
+        <th>4</th>
+        <td>mendel_op19_3.mid</td>
+        <td>2</td>
+        <td>Acoustic Grand Piano</td>
+        <td>137.633716</td>
+        <td>430</td>
+        <td>1</td>
+        <td>1</td>
+        <td>65.702386</td>
+        <td>28</td>
+        <td>97</td>
+        <td>57.596902</td>
+        <td>0.186539</td>
+        <td>17.357665</td>
+        <td>0.057595</td>
+        <td>[11, 436, 127, 73, 516, 5, 249, 1, 214, 448, 3...</td>
+        <td>A major</td>
+        <td>48.36, 52.62.56, 69.64, 57.50.59.54, 61.54, 71...</td>
+        <td>(64,0.57,1.32,70) (61,1.32,1.41,69) (64,1.41,1...</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
