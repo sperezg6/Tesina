@@ -1,0 +1,16 @@
+# Archivos y carpetas de Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+
+# Archivos temporales y de sistema
+.DS_Store
+.env
+.venv
+*.swp
+*.bak
