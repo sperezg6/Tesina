@@ -1,7 +1,4 @@
-# Modelado y Generacióon
-Musical: Una Aproximación
-Mediante Redes Neuronales y
-Entradas MIDI 
+# Modelado y Generación Musical: Una Aproximación Mediante Redes Neuronales y Entradas MIDI 
 
 Este proyecto implementa un pipeline completo para el análisis, modelado y generación de música a partir de archivos MIDI utilizando técnicas de deep learning, principalmente redes LSTM.
 
