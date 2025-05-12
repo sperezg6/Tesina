@@ -1,6 +1,11 @@
 # Modelado y Generación Musical: Una Aproximación Mediante Redes Neuronales y Entradas MIDI 
 
+
+
+![itamLogo](Aux/images/itam_logo.jpg)
+
 Este proyecto implementa un pipeline completo para el análisis, modelado y generación de música a partir de archivos MIDI utilizando técnicas de deep learning, principalmente redes LSTM.
+
 
 ## Estructura del Proyecto
 
